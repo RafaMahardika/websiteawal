@@ -1,0 +1,175 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background-color: #222;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header h1 span {
+  color: #f0c040;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #f0c040;
+}
+
+.btn-daftar {
+  background-color: #f0c040;
+  color: #222;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #DDD;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.btn-mulai {
+  background-color: #222;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 24px 20px;
+  width: 200px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #777;
+}
+
+/* HARGA */
+.harga {
+  padding: 60px 40px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.harga h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.harga-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.paket {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 24px 20px;
+  width: 200px;
+}
+
+.paket.unggulan {
+  border: 2px solid #f0c040;
+}
+
+.paket h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.harga-nominal {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e63946;
+  margin-bottom: 8px;
+}
+
+.paket p {
+  font-size: 13px;
+  color: #777;
+}
+
+/* KONTAK */
+.kontak {
+  padding: 30px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.kontak h2 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.kontak p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
